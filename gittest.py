@@ -6,3 +6,4 @@ while True:
     except ValueError:
         print("nem megfelelo szamformatum")
 print(n,type(n))
+print("githubsuxx")
