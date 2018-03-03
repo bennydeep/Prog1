@@ -46,7 +46,6 @@ def indexofminmax(v):
 
 
 v = np.round(100 * np.random.random(30))
-incides = indexofminmax(v)
 print(v)
 
 
