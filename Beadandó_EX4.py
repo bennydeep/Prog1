@@ -19,3 +19,4 @@ def n_prim(n):
 
 print(n_prim(10001))
 
+#print(prim_e(8))
