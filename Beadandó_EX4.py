@@ -7,7 +7,7 @@ def prim_e(b):
             return False
     return True
 
-def sokadikprim(n):
+def n_prim(n):
     i=2
     while n>0:
         if prim_e(i):
@@ -17,7 +17,5 @@ def sokadikprim(n):
         i+=1
     return -1
 
-print(sokadikprim(10001))
+print(n_prim(10001))
 
-
-#print(prim_e(8))
