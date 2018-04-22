@@ -17,6 +17,6 @@ def n_prim(n):
         i+=1
     return -1
 
-print(n_prim(10001))
+print(n_prim(5000))
 
 #print(prim_e(8))
