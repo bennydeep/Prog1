@@ -1,14 +1,19 @@
 import string
 
-def clearrow(str):
-    newstr=""
-    for ch in str:
-        if ch not in string.punctuation and ch!='\n':
-            newstr+=ch
-    return newstr.lower()
-
+def malackodas(str):
+    words=newstr.split(' ')
+    #return words
+    for word in words:
+        print(word[1:] + word[0] + "ay", end=" ")
 
 
 
 szoveg=str(input("Írj be valamit"))
-#print(clearrow(szoveg))
+newstr=""
+for ch in szoveg:
+    if ch not in string.punctuation and ch!='\n':
+        newstr+=ch
+newstr=newstr.lower()
+
+
+malackodas(str)
