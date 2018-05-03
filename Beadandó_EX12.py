@@ -1,3 +1,4 @@
+import time
 def prim_e(b):
     db=1
     for i in range(1, b):
@@ -17,6 +18,9 @@ def n_prim(n):
         i+=1
     return -1
 
+t0=time.time()
 print(n_prim(10001))
+t1=time.time()
+print(t1-t0)
 
 #print(prim_e(8))
