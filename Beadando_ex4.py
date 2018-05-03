@@ -19,5 +19,4 @@ for ch in mondat:
         newstr+=ch
 newstr=newstr.lower()
 
-
 print(malackodas(str))
