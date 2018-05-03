@@ -4,12 +4,13 @@ def malackodas(str):
     words=newstr.split(' ')
     #return words
     for word in words:
-        if word[-3:]=="ay":
-            word=word[0:len(word)-2]
-            print(word[-1]+word,end=" ")
-
+        if word=="ay":
+            return -1
+        elif word[-2:]=="ay":
+            x=word[0:len(word)-2]
+            return(x[-1]+x[0:len(x)-1]+' ').capitalize()
         else:
-            print(word[1:] + word[0] + "ay", end=" ")
+            return(word[1:] + word[0] + "ay"+' ').capitalize()
 
 mondat=str(input("Írj be valamit"))
 newstr=""
@@ -19,4 +20,4 @@ for ch in mondat:
 newstr=newstr.lower()
 
 
-(malackodas(str))
+print(malackodas(str))
