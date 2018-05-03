@@ -17,11 +17,11 @@ for i in szavak:
 
 csillag_csillag='' #díszítősor :D
 for i in range(leg_h+5):
-    csillag_csillag+='-'
+    csillag_csillag+='*'
 
 print(csillag_csillag)
 for i in szavak:
     space=leg_h-len(i)
-    print('|',i,' '*space,'|')
+    print('*',i,' '*space,'*')
 print(csillag_csillag)
 #print(szavak)
